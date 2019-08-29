@@ -1,9 +1,18 @@
 /* css for main index page */
+/* * {
+    box-sizing: border-box;
+    text-align: center;
+  } */
+#main {
+    background-color: white;
+    padding: 8px;
+}
+    
 .wrapper {
     margin: 0 auto;
     width: 960px;
     padding: 20px;
-    background-color: #dddddd;
+    background-image: url("https://i.pinimg.com/originals/b8/c0/30/b8c030136bde5a1e4f89ef6b4bbaf3ea.jpg");
 }
 
 p {
@@ -60,7 +69,7 @@ li a {
 li a:hover {
     background-color: #111;
 }
-.h2 {
+h2 {
     background-color: #4aaaa5;
     padding: 7px;
     position: fixed;
@@ -113,18 +122,24 @@ input[type=submit]:hover {
         height: 215px;
         margin-left: 20px;
         padding-top: 10px;
-        position: relative;
+       
         float: left;
-        width: 75px;
-        height: 75px;
+        width: 960px;
+        z-index: 2;
       }
   
 .label {
         background-color: #4aaaa5;
         position: absolute;
-        padding: 10px 75px;
+        padding: 10px 50px;
+        z-index: 10;
+        width: 42%;
     }
 
+.project {
+        float: left;
+        position: relative;
+    }
 .clearfix::after{
         clear: both;
         content: "";
