@@ -117,17 +117,18 @@ input[type=submit]:hover {
   }
 
   /* start css for portfolio page here */
-  #img {
+#boxes {
         height: 215px;
         margin-left: 20px;
-        /* width: 33%; */
         padding-top: 10px;
         position: relative;
         float: left;
+        width: 75px;
+        height: 75px;
       }
   
-    #absolute {
+.label {
         background-color: #4aaaa5;
         position: absolute;
-        padding: 15px 25px;
+        padding: 10px 75px;
     }
