@@ -122,7 +122,6 @@ input[type=submit]:hover {
         height: 215px;
         margin-left: 20px;
         padding-top: 10px;
-       
         float: left;
         width: 960px;
         z-index: 2;
@@ -139,6 +138,8 @@ input[type=submit]:hover {
 .project {
         float: left;
         position: relative;
+        right: -10px;
+        top: 60px;
     }
 .clearfix::after{
         clear: both;
