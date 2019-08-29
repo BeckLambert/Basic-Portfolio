@@ -18,7 +18,7 @@ p {
 
 .h1 {
     margin-top: 40px;
-    color: #777777;
+    color: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
@@ -60,7 +60,6 @@ li a {
     text-decoration: none;
 }
 
-/* Change the link color to black on hover */
 li a:hover {
     background-color: #111;
 }
@@ -68,13 +67,13 @@ li a:hover {
     background-color: #4aaaa5;
     padding: 7px;
     position: fixed;
-    bottom: 38px;
-    width: 986px;
+    bottom: 15px;
+    width: 966px;
 }
 
 footer {
     background-color: #333;
-    padding: 20px;
+    padding: 10px;
     color: #4aaaa5;
     text-align: center;
     position: fixed;
@@ -83,27 +82,38 @@ footer {
 }
 
 /* Start css for contact form here */
-/* Style the submit button with a specific background color etc */
-h1 {
-    font: #777777;
+#h1 {
+    margin-top: 40px;
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
+
+input[type=text], select, textarea {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+  }
+
 input[type=submit] {
     background-color: #4aaaa5;
     color: white;
     padding: 12px 20px;
     border: none;
-    border-radius: 4px;
     cursor: pointer;
   }
   
-  /* When moving the mouse over the submit button, add a darker green color */
-  input[type=submit]:hover {
+input[type=submit]:hover {
     background-color: #052c2a;
   }
-  
-  /* Add a background color and some padding around the form */
-  .form {
+
+.form {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
   }
+
+  /* start css for portfolio page here */
