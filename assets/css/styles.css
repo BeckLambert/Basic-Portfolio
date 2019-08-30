@@ -1,11 +1,13 @@
 /* css for main index page */
-/* * {
-    box-sizing: border-box;
-    text-align: center;
+/* .clearfix::after{
+    clear: both;
+    content: "";
+    display: block;
   } */
-#main {
+
+  #main {
     background-color: white;
-    padding: 8px;
+    padding: 20px;
 }
     
 .wrapper {
@@ -38,7 +40,7 @@ h1 {
 img {
     height: 200px;
     width: 200px;
-    margin-right: 40px;
+    margin-right: 20px;
     margin-bottom: 20px;
     float: left;
 }
@@ -74,7 +76,7 @@ h2 {
     padding: 7px;
     position: fixed;
     bottom: 15px;
-    width: 966px;
+    width: 955px;
 }
 
 footer {
@@ -84,7 +86,7 @@ footer {
     text-align: center;
     position: fixed;
     bottom: 0;
-    width: 960px; 
+    width: 950px; 
 }
 
 /* Start css for contact form here */
@@ -124,7 +126,6 @@ input[type=submit]:hover {
         padding-top: 10px;
         float: left;
         width: 960px;
-        z-index: 2;
       }
   
 .label {
@@ -132,17 +133,15 @@ input[type=submit]:hover {
         position: absolute;
         padding: 10px 50px;
         z-index: 10;
-        width: 42%;
+        width: 45.5%;
+        bottom: 35px;
+        text-align: center
     }
 
 .project {
         float: left;
         position: relative;
-        right: -10px;
-        top: 60px;
-    }
-.clearfix::after{
-        clear: both;
-        content: "";
-        display: block;
-      }
+        top: 30px;
+        margin-left: 15%;
+        margin-bottom: 5%;
+     } 
