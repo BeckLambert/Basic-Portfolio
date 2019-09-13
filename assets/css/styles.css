@@ -54,9 +54,9 @@ img {
     position: fixed;
     top: 0;
     width: 960px;
-}
+} 
 
-li {
+ li {
     float: right;
 }
 
@@ -66,7 +66,7 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    z-index: 5px;
+    z-index: 5;
 }
 
 li a:hover {
@@ -124,7 +124,7 @@ input[type=submit]:hover {
 
   /* start css for portfolio page here */
 .boxes {
-        height: 215px;
+        /* height: 215px; */
         margin-left: 20px;
         padding-top: 10px;
         float: left;
@@ -139,7 +139,7 @@ input[type=submit]:hover {
         width: 45.5%;
         bottom: 35px;
         text-align: center;
-        z-index: 4px;
+        z-index: 4;
     }
 
 .project {
@@ -148,5 +148,5 @@ input[type=submit]:hover {
         top: 30px;
         margin-left: 15%;
         margin-bottom: 5%;
-        z-index: 3px;
+        z-index: 1;
      } 
