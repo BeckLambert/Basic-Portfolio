@@ -38,18 +38,6 @@ h1 {
     font-size: 30px;
     line-height: 49px;
 }
-
-footer {
-    background-color: #333;
-    padding: 10px;
-    color: #4aaaa5;
-    text-align: center;
-    position: fixed;
-    bottom: 0;
-    width: 950px; 
-    z-index: 5px;
-}
-
  
   /* Nav bar css */
   #masthead {
@@ -60,6 +48,7 @@ footer {
     overflow: auto;
     color: #ffffff;
     background: #ffffff;
+    top: 0;
   }
   
   #logo {
@@ -125,30 +114,38 @@ input[type=submit]:hover {
   }
 
   /* start css for portfolio page here */
-.boxes {
-        /* height: 215px; */
-        margin-left: 20px;
-        padding-top: 10px;
-        float: left;
-        width: 960px;
-      }
-  
-.label {
-        background-color: #4aaaa5;
-        position: absolute;
-        padding: 10px 50px;
-        z-index: 10;
-        width: 45.5%;
-        bottom: 35px;
-        text-align: center;
-        z-index: 4;
-    }
+  #portfolio {
+    margin-top: 100px;
+    width: 100%;
+    max-width: 960px;
+    height: 1450px;
+    padding: 25px;
+    margin-left: 75px;
+    background: #ffffff;
+    border: 1px solid #dddddd;
+}      
 
-.project {
-        float: left;
-        position: relative;
-        top: 30px;
-        margin-left: 15%;
-        margin-bottom: 5%;
-        z-index: 1;
-     } 
+h3{
+    position: absolute;
+    bottom: 20px;
+    width: 400px;
+    padding: 15px;
+    font-weight: 300;
+    line-height: 30px;
+    color: #ffffff;
+    text-align: center;
+    background: #4aaaa5;
+}
+
+#center {
+    margin-top: 25px;
+}
+
+#end {
+    margin-top: 25px;
+}
+
+#images {
+    width: 400px;
+    height: 400px;
+}
