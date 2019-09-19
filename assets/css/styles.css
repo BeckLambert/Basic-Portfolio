@@ -11,11 +11,11 @@
   }
 
 .main-section {
-    float: left;
     width: 100%;
     max-width: 960px;
     padding: 30px;
     margin: 0 0 40px;
+    margin-left: 85px;
     background: #ffffff;
     border: 1px solid #dddddd;
 }
@@ -115,21 +115,17 @@ input[type=submit]:hover {
 
   /* start css for portfolio page here */
   #portfolio {
-    margin-top: 100px;
+    margin-top: 50px;
     width: 100%;
-    max-width: 960px;
     height: 1450px;
     padding: 25px;
-    margin-left: 75px;
-    background: #ffffff;
-    border: 1px solid #dddddd;
 }      
 
 h3{
     position: absolute;
     bottom: 20px;
-    width: 400px;
-    padding: 15px;
+    width: 300px;
+    padding: 8px;
     font-weight: 300;
     line-height: 30px;
     color: #ffffff;
@@ -146,6 +142,6 @@ h3{
 }
 
 #images {
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
 }
